@@ -1,7 +1,7 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
+title: Ornithopter
 summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
-date: 2023-10-27
+date: 12/2023-04/2024
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -11,12 +11,15 @@ image:
 
 authors:
   - admin
-  - Ted
+  # - Ted
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  # - Academic
+  # - Hugo Blox
+  # - Markdown
+  - robotic
+  # - Hugo Blox
+  # - Markdown
 ---
 
 Welcome 👋
