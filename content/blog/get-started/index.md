@@ -5,9 +5,9 @@ date: 2023-10-27
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-image: featured.jpg
-  # caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
-caption: 'Photo by Me'
+image: 
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+# caption: 'Photo by Me'
 
 authors:
   - admin
