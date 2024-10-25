@@ -1,7 +1,7 @@
 ---
 title: Ornithopter
 summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
-date: 12/2023-04/2024
+date: 2023-10-27
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
