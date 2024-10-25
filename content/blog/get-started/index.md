@@ -14,12 +14,12 @@ authors:
   # - Ted
 
 tags:
-  # - Academic
-  # - Hugo Blox
-  # - Markdown
-  - robotic
-  # - Hugo Blox
-  # - Markdown
+  - Academic
+  - Hugo Blox
+  - Markdown
+  # - robotic
+  # # - Hugo Blox
+  # # - Markdown
 ---
 
 Welcome 👋
