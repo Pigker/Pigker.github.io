@@ -34,7 +34,7 @@ Welcome 👋
 
 [//]: # ([![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.]&#40;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#41;]&#40;https://hugoblox.com&#41;)
 
-### Get Started
+<!-- ### Get Started
 
 - 👉 [**Create a new site**](https://hugoblox.com/templates/)
 - 📚 [**Personalize your site**](https://docs.hugoblox.com/)
@@ -87,4 +87,4 @@ Hugo Blox and its templates come with **automatic day (light) and night (dark) m
 
 Copyright 2016-present [George Cushen](https://georgecushen.com).
 
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license. -->
