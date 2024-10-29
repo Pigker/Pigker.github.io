@@ -1,5 +1,5 @@
 ---
-title: 👩🏼‍🏫 Teach academic courses
+title: dataset for multi-degree-of-freedom robotic arms
 summary: Embed videos, podcasts, code, LaTeX math, and even test students!
 date: 2023-10-24
 math: true

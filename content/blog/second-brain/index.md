@@ -1,25 +1,30 @@
 ---
 title: Robot studio
 summary: Design and control a Bipedal Robot.
-date: 2024/01-2024/05
+date: 2024-05-05 
 authors:
   - admin
-tags:
-  - Second Brain
-  - Markdown
+# tags:
+#   - Second Brain
+#   - Markdown
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
+## Overview
 
-Create a personal knowledge base and share your knowledge with your peers.
+1. We needed to design a robot independently that could walk without using wheels. Therefore, I decided to design a bipedal robot to simulate human walking.
+2. I started by sketching the basic shape of the robot. Then, I created a CAD model and used 3D printing to manufacture one leg of the robot.
+3. Using a Raspberry Pi, I tested basic code functionality and electronic wiring to ensure the system was working correctly.
+4. Next, I assembled the entire robot and programmed it to perform simple walking movements, conducting initial gait tests.
+5. I used MuJoCo for simulation and applied the hill-climbing algorithm to optimize the motor control parameters, aiming to improve the robot's walking speed and stability. However, since the motor control relied 
+on sine functions, the optimization had some limitations
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+{{< youtube 8UWeWlO6ypI >}}
 
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+6. To overcome these limitations, I implemented reinforcement learning to find the optimal actions for maximizing the robot's walking speed. Due to the high computational demand and long training times of reinforcement learning, I was only able to find some relatively basic actions in the simulation. 
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
 
-## Mindmaps
+<!-- ## Mindmaps
 
 Hugo Blox supports a Markdown extension for mindmaps.
 
@@ -135,4 +140,4 @@ Or use the `warning` callout type so your readers don't miss critical details:
 A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 {{% /callout %}}
 
-## Did you find this page helpful? Consider sharing it 🙌
+## Did you find this page helpful? Consider sharing it 🙌 -->
