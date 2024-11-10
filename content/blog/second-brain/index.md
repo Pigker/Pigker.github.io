@@ -12,16 +12,22 @@ image:
 ---
 ## Overview
 
-1. We needed to design a robot independently that could walk without using wheels. Therefore, I decided to design a bipedal robot to simulate human walking.
-2. I started by sketching the basic shape of the robot. Then, I created a CAD model and used 3D printing to manufacture one leg of the robot.
-3. Using a Raspberry Pi, I tested basic code functionality and electronic wiring to ensure the system was working correctly.
-4. Next, I assembled the entire robot and programmed it to perform simple walking movements, conducting initial gait tests.
-5. I used MuJoCo for simulation and applied the hill-climbing algorithm to optimize the motor control parameters, aiming to improve the robot's walking speed and stability. However, since the motor control relied 
-on sine functions, the optimization had some limitations
+1. We needed to independently design a robot capable of walking without wheels. I decided to create a bipedal robot to simulate human walking.
+2. I started by sketching the robot’s basic shape, then developed a CAD model and used 3D printing to fabricate one of the robot’s legs.
+3. Using a Raspberry Pi, I tested basic code functionality and electronic wiring to ensure the system operated correctly.
+4. I then assembled the full robot and programmed it to perform simple walking movements, conducting initial gait tests.
+5. I used MuJoCo as the simulation platform and created a custom simulation environment based on the gymnasium library. Meanwhile, I utilized the PPO algorithm from stable_baselines3 to train the model, enhancing the bipedal robot's walking ability by continuously modifying the reward function.
+
+{{< youtube PUF_r42KNEg >}}
+
+5. I iteratively upgraded the robot’s mechanical structure, increasing each leg’s degrees of freedom to improve its walking ability. Initially, I applied the hill-climbing algorithm to find motor control parameters for stable walking, but since control relied on sine functions, this approach had limitations.
 
 {{< youtube 8UWeWlO6ypI >}}
 
-6. To overcome these limitations, I implemented reinforcement learning to find the optimal actions for maximizing the robot's walking speed. Due to the high computational demand and long training times of reinforcement learning, I was only able to find some relatively basic actions in the simulation. 
+6. I then implemented reinforcement learning to identify optimal actions to maximize walking speed. Due to the high computational demand and long training times, I only found some suboptimal actions. 
+7. Here is a video of the complete process for the project.
+
+{{< youtube CLA4x7UixoA >}}
 
 
 <!-- ## Mindmaps

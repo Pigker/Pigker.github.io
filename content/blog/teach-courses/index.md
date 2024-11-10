@@ -1,19 +1,35 @@
 ---
-title: dataset for multi-degree-of-freedom robotic arms
-summary: Embed videos, podcasts, code, LaTeX math, and even test students!
-date: 2023-10-24
+title: Video2URDF Deriving Robot Description from Point Cloud Video
+summary: Train a model that can generate a URDF file from a video of a robot's point cloud.
+date: 2024-11-07
 math: true
 authors:
   - admin
-tags:
-  - Hugo
-  - Hugo Blox Builder
-  - Markdown
+# tags:
+#   - Hugo
+#   - Hugo Blox Builder
+#   - Markdown
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
+## Overview
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+1. An experimental platform is designed to study the robotic arm's motion range and camera field of view, using the camera to capture point cloud data of the robotic arm.
+
+2. Each frame of point cloud data is segmented using the k-means algorithm, dividing it into multiple segments. 
+
+3. A multi-layer perceptron (MLP) model is then trained on these segments, using Chamfer distance as the loss function to compute the transformation matrix for each segment. A distance matrix is calculated to determine the relative distance between pairs of points, aiding in coordinate partitioning during the clustering process.
+
+4. Before generating the URDF file, we classify the robotic arm's links into two cases: known and unknown degrees of freedom (DOF). For known DOF, links are directly divided; for unknown DOF, we use the silhouette score method to search for the optimal DOF within a specified range. This method increments the DOF value, clustering at each step and calculating silhouette scores to select the DOF with the best clustering quality.
+
+5. Using the NetworkX library, a graph structure is created to represent the connections between links. The minimum spanning tree (MST) method is employed to establish the primary link connections, resulting in an acyclic, connected kinematic tree. Based on the segmentation results, a URDF file and corresponding kinematic tree are generated, facilitating the modeling and visualization of the robotic arm's structure.
+
+
+In this project, I was primarily responsible for the design and setup of the experimental platform, data collection, partial process optimization, and implementation of some code.
+
+
+
+<!-- [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
 
 **Embed videos, podcasts, code, LaTeX math, and even test students!**
 
@@ -134,4 +150,4 @@ renders as
 
 {{< icon name="python" >}} Python
 
-## Did you find this page helpful? Consider sharing it 🙌
+## Did you find this page helpful? Consider sharing it 🙌 -->

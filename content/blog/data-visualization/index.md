@@ -4,10 +4,10 @@ summary: Create a dataset containing multiple robotic arm MJCF files.
 date: 2024-10-25
 authors:
   - admin
-tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+# tags:
+#   - Hugo
+#   - Hugo Blox
+#   - Markdown
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
