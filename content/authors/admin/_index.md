@@ -17,7 +17,7 @@ last_name: Ning
 superuser: true
 
 # Role/position/tagline
-role: master students
+role: master student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ organizations:
     url: https://www.columbia.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: 'my interest is designing and control robots'
+bio: 'My interest is in designing and controling robots'
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
