@@ -1,5 +1,5 @@
 ---
-title: Robot studio
+title: Serial-structured bipedal robot
 summary: Design and control a Bipedal Robot.
 date: 2024-05-05 
 authors:
