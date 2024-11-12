@@ -54,4 +54,4 @@ highlight_name: true
 website: ""
 ---
 
-My name is Jialong Ning, and I’m a graduate student at Columbia University in the City of New York, where I major in Mechanical Engineering - Robotics and Control concentration. I’m graduating on Dec. 2024.
+My name is Jialong Ning, and I’m a graduate student at Columbia University in the City of New York, majoring in Mechanical Engineering with a concentration in Robotics and Control. I will graduate in December 2024.
