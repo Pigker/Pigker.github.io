@@ -1,5 +1,5 @@
 ---
-title: Video2URDF Deriving Robot Description from Point Cloud Video
+title: AutoURDF Unsupervised Robot Modeling from Point Cloud Frames Using Cluster Registration
 summary: Train a model that can generate a URDF file from a video of a robot's point cloud.
 date: 2024-11-07
 math: true
