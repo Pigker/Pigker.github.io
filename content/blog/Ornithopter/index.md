@@ -1,6 +1,6 @@
 ---
 title: Ornithopter
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+summary: A flying vehicle that mimics birds by generating lift and thrust through wing flapping.
 date: 2024-04-12
 
 # Featured image

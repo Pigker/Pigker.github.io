@@ -1,6 +1,6 @@
 ---
 title: Bistable Compliant Fish Robot
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+summary: Using a bistable structure as the driving force for fish-like locomotion.
 date: 2024-06-12
 authors:
   - admin
