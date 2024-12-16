@@ -197,16 +197,10 @@ renders as
 &lt;ol start="5">
 &lt;li>I iteratively upgraded the robot’s mechanical structure, increasing each leg’s degrees of freedom to improve its walking ability. Initially, I applied the hill-climbing algorithm to find motor control parameters for stable walking, but since control relied on sine functions, this approach had limitations.&lt;/li>
 &lt;/ol>
-&lt;p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/8UWeWlO6ypI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
 >&lt;/iframe>
 &lt;/div>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/8WW83r5E5Kg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
->&lt;/iframe>
-&lt;/div>
-&lt;/p>
 &lt;ol start="6">
 &lt;li>I then implemented reinforcement learning to identify optimal actions to maximize walking speed. Due to the high computational demand and long training times, I only found some suboptimal actions.&lt;/li>
 &lt;li>Here is a video of the complete process for the project.&lt;/li>
