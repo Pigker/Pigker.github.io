@@ -19,6 +19,7 @@ image:
 5. I used MuJoCo as the simulation platform and created a custom simulation environment based on the gymnasium library. Meanwhile, I utilized the PPO algorithm from stable_baselines3 to train the model, enhancing the bipedal robot's walking ability by continuously modifying the reward function.
 
 {{< youtube PUF_r42KNEg >}}
+{{< youtube 8WW83r5E5Kg >}}
 
 5. I iteratively upgraded the robot’s mechanical structure, increasing each leg’s degrees of freedom to improve its walking ability. Initially, I applied the hill-climbing algorithm to find motor control parameters for stable walking, but since control relied on sine functions, this approach had limitations.
 
