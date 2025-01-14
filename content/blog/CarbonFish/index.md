@@ -18,7 +18,8 @@ image:
 
 1. Developed a soft robotic fish, CarbonFish, based on a bistable Hair Clip Mechanism (HCM) to achieve efficient, biomimetic motion through energy storage and release, enabling high-frequency undulation
 2. Iteratively optimized the shell and skeleton of CarbonFish to accommodate electronic components, ensure waterproofing, and meet high-frequency vibration requirements.
-3. The shell was designed to provide sufficient space for servo motors and electronic components, while addressing waterproofing challenges for underwater operation.
+3. The shell was designed to provide sufficient space for servo motors and electronic components, while addressing waterproofing challenges for underwater operation. 
+(arXiv preprint arXiv:2311.03223.)
 <!-- ## Ideation
 
 Hugo Blox supports a Markdown extension for mindmaps.
