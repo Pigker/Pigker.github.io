@@ -16,7 +16,7 @@
 &lt;p>Using the NetworkX library, a graph structure is created to represent the connections between links. The minimum spanning tree (MST) method is employed to establish the primary link connections, resulting in an acyclic, connected kinematic tree. Based on the segmentation results, a URDF file and corresponding kinematic tree are generated, facilitating the modeling and visualization of the robotic arm&amp;rsquo;s structure.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>In this project, I was primarily responsible for the design and setup of the experimental platform, data collection, partial process optimization, and implementation of some code.&lt;/p>
+&lt;p>In this project, I was primarily responsible for the design and setup of the experimental platform, data collection, partial process optimization, and implementation of some code.(Submitted to CVPR 2025 arXiv:2412.05507.)&lt;/p>
 &lt;!-- [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
 **Embed videos, podcasts, code, LaTeX math, and even test students!**
 On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.

@@ -25,7 +25,7 @@ image:
 5. Using the NetworkX library, a graph structure is created to represent the connections between links. The minimum spanning tree (MST) method is employed to establish the primary link connections, resulting in an acyclic, connected kinematic tree. Based on the segmentation results, a URDF file and corresponding kinematic tree are generated, facilitating the modeling and visualization of the robotic arm's structure.
 
 
-In this project, I was primarily responsible for the design and setup of the experimental platform, data collection, partial process optimization, and implementation of some code.
+In this project, I was primarily responsible for the design and setup of the experimental platform, data collection, partial process optimization, and implementation of some code.(Submitted to CVPR 2025 arXiv:2412.05507.)
 
 
 
